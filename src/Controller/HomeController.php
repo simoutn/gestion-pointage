@@ -9,6 +9,6 @@ class HomeController extends Controller{
     public function index() :Response
 
     {
- return $this->render('user/index.html.twig');
+ return $this->render('home/index.html.twig');
     }
 }
